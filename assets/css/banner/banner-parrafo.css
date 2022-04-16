@@ -1,0 +1,15 @@
+.banner__parrafo {
+    
+    width: 751px;
+    height: 61px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+    margin: 105px auto auto 10px;
+
+}

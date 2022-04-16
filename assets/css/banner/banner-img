@@ -1,0 +1,30 @@
+.banner__img {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 32px;
+
+    position: static;
+    width: 1440px;
+    height: 352px;
+    left: 0px;
+    top: 115px;
+
+    /* imagemhero */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../img/banner/banner.png);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+    
+    
+    
+}
+
+}
+/* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(.jpg); */

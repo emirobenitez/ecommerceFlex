@@ -1,0 +1,14 @@
+.banner {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+    padding: 32px;
+
+    
+    width: 1440px;
+    height: 352px;
+
+    display: grid;
+    grid-template-columns: auto;
+}

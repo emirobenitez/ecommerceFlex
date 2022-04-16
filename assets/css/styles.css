@@ -1,0 +1,46 @@
+/* ---------------------------------------- */
+/*            FONTS                         */
+/* ---------------------------------------- */
+
+* {
+  /* font-family: "Raleway", "Chalet", "Arial", "Helvetica", "sans-serif"; */
+  font-family: "Raleway", "sans-serif";
+}
+
+/* ---------------------------------------- */
+/*            FONTS                         */
+/* ---------------------------------------- */
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+
+
+.clearfix {
+  overflow: auto;
+}
+
+body {
+
+    position: relative;
+    width: 1440px;
+    height: 2111px;
+    background: #F5F5F5;
+}
+
+main {
+    
+   
+  }
+
+
+  a:link, a:visited {
+    /* color: red; */
+    text-decoration: none;
+    /* cursor: auto; */
+}
