@@ -1,55 +1,45 @@
-contacto {
-    background: #EAF2FD;
-}
-
 .contacto__conenido--form {
     
-    /* width: 560px;
-    height: 240px; */
-
-    -webkit-flex-basis: 50%;    
-    -ms-flex-basis: 50%;
-    flex-basis: 50%;
-    margin: 30px auto;
-
+  display: initial;
+  margin: 30px auto;
+  width: 45vw;
 }
 
 input {
-    /* width: 560px; */
+    
     height: 56px;
     width: 32vw;
+    width: 41vw;
     left: calc(50% - 560px/2);
     top: 0px;
 
-    /* Preto/branco */
     background: #FFFFFF;
     border-radius: 4px;
 
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 8px 0px;
+    display: block;
+    width: 32vw;
 }
 
 textarea {
-    position: static;
-    width: 560px;
-    height: 82px;
-    left: calc(50% - 560px/2);
-    top: 0px;
+  position: static;
+  width: 560px;
+  height: 82px;
+  left: calc(50% - 560px/2);
+  top: 0px;
 
-    /* Preto/branco */
-    background: #FFFFFF;
-    border-radius: 4px;
+  background: #FFFFFF;
+  border-radius: 4px;
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 1;
-    margin: 8px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  margin: 8px 0px;
 }
 
 label {
@@ -65,13 +55,8 @@ label {
     font-size: 16px;
     line-height: 19px;
 
-    /* identical to box height */
-
-    /* Preto/100% */
     color: #464646;
 
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -80,37 +65,35 @@ label {
 }
 
 
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+input[type=submit]:hover {
+  background-color: #45a049;
+}
   
 
-  textarea {
-    display: block;
-    width: 32vw;
-  }
+textarea {
+  display: block;
+  width: 32vw;
+}
 
-  .contacto__contenido--btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    
-    position: static;
-    width: 144px;
-    height: 51px;
-    left: 0px;
-    top: 189px;
-    
-    /* Azul/100% */
-    background: #2A7AE4;
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 8px 0px;
+.contacto__contenido--btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
 
-    margin-top: 10px ;
-  }
+  position: static;
+  width: 144px;
+  height: 51px;
+  left: 0px;
+  top: 189px;
+
+  background: #2A7AE4;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 8px 0px;
+
+  margin-top: 10px ;
+}

@@ -4,18 +4,13 @@
     display: flex;
     align-items: stretch;
 
-    /* border: seagreen solid 1px; */
 }
 
 
 .cabecera > div {
     
     margin: 10px;
-    
     font-size: 30px;
-    
-    border: skyblue solid 1px;
-    background: #FFFFFF;
     
   }
 
@@ -72,7 +67,6 @@
     .cabecera {
 
         text-align: center;
-        /* line-height: 75px; */
         width: 95vw;
 
         

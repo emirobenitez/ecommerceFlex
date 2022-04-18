@@ -1,17 +1,12 @@
+.contenido {
+
+    justify-content: space-around;
+}
+
 .contacto__contenido {
     display: flex;
     flex-wrap: wrap;
+    background: #EAF2FD;
+    height: 368px;
+
 }
-
-
-/* @media (max-width:1800px) and (min-width:1200px){ */
-    .contacto__contenido > div {
-        background: #EAF2FD;
-    width: 33% ;
-    margin: 20px auto;
-    text-align: initial;
-    line-height: 35px;
-    font-size: 14px;
-    display: initial;
-   /* background-color: aquamarine; */
-} 

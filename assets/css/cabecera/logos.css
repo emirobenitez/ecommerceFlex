@@ -7,7 +7,7 @@
         display: flex;
         width: 59vw;
         height: 16px;
-        /* background: black; */
+
     }
     logo1 {
         max-width: 23px;
@@ -16,7 +16,7 @@
 
     .logo2 {
         width: 59px;
-        /* background: green; */
+
 
     }
 }
@@ -31,7 +31,7 @@
         display: flex;
         width: 21vw;
         height: 16px;
-        /* background: black; */
+
     }
     logo1 {
         max-width: 23px;
@@ -40,7 +40,7 @@
 
     .logo2 {
         width: 59px;
-        /* background: green; */
+
 
     }
 
@@ -57,7 +57,7 @@
         display: flex;
         width: 59vw;
         height: 16px;
-        /* background: black; */
+
     }
     logo1 {
         max-width: 23px;
@@ -66,7 +66,7 @@
 
     .logo2 {
         width: 59px;
-        /* background: green; */
+
 
     }
     
@@ -80,7 +80,7 @@
         display: flex;
         width: 21vw;
         height: 16px;
-        /* background: black; */
+
     }
     logo1 {
         max-width: 23px;
@@ -89,7 +89,6 @@
 
     .logo2 {
         width: 59px;
-        /* background: green; */
 
     }
 
@@ -103,7 +102,6 @@
         display: flex;
         width: 21vw;
         height: 16px;
-        /* background: black; */
     }
     logo1 {
         max-width: 23px;
@@ -112,7 +110,6 @@
 
     .logo2 {
         width: 59px;
-        /* background: green; */
 
     }
     
