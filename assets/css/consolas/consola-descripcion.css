@@ -1,9 +1,9 @@
-.producto__descripcion {
+.consola__descripcion {
     font-size: 1.1875rem;
     line-height: 1.5;
     text-align: justify;
 }
 
-.producto__contenido {
+.consola__contenido {
     /* padding: 1rem; */
 }

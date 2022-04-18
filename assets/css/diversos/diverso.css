@@ -1,4 +1,4 @@
-.producto {
+.diverso {
   display: flex;
   flex-wrap: wrap;
   /* background-color: DodgerBlue; */
@@ -10,7 +10,7 @@
 
 @media (max-width:567px) and (min-width:320px){
 
-  .producto > div {
+  .diverso > div {
   /* background-color: yellow; */
   width: 50%;
   /* height: 250px; */
@@ -27,7 +27,7 @@
 
 @media (max-width:991px) and (min-width:768px){
 
-  .producto > div {
+  .diverso > div {
       /* background-color: blue; */
       width: 33%;
       /* margin: 10px auto; */
@@ -42,7 +42,7 @@
 
 @media (max-width:767px) and (min-width:568px){
 
-  .producto > div {
+  .diverso > div {
       /* background-color: red; */
       width: 30%;
       /* margin: 10px; */
@@ -58,7 +58,7 @@
 
 @media (max-width:1199px) and (min-width:992px){
 
-  .producto > div {
+  .diverso > div {
     background-color: #f1f1f1;
     width: calc(21% - 1rem);
     margin: 10px ;
@@ -71,7 +71,7 @@
 } 
 
 @media (max-width:1800px) and (min-width:1200px){
-    .producto > div {
+    .diverso > div {
     background-color: #f1f1f1;
     /* width: calc(15% - 5rem); */
     width: 15% ;

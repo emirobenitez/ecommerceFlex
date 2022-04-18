@@ -199,13 +199,10 @@
  
     .btn__search {
         order: 2;
-        
         display: flex;
-        
         max-width: 49vw;
         height: 28px;
 
-        /* background: red; */
         
     }
 
@@ -216,6 +213,17 @@
         /* border: none; */
         border: solid 1px black;
         vertical-align: super;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      
+        display: flex;
+        align-items: center;
+        
+        color: #A2A2A2;
     }
 
 

@@ -3,7 +3,7 @@
 @media (max-width:567px) and (min-width:320px){
 
      
-    .producto__titulo {
+    .diverso__titulo {
         /* width: 156px; */
         width: 22vw;
         height: 16px;
@@ -22,7 +22,7 @@
     }
     
     
-    .producto__valor {
+    .diverso__valor {
         
         /* width: 156px; */
         width: 22vw;
@@ -39,7 +39,7 @@
     }
     
     
-    .producto__boton {
+    .diverso__boton {
         
         /* width: 88px; */
         width: 25vw;
@@ -64,7 +64,7 @@
 @media (max-width:991px) and (min-width:768px){
 
    
-    .producto__titulo {
+    .diverso__titulo {
         
         /* width: 156px; */
         width: 15vw;
@@ -84,7 +84,7 @@
     }
     
     
-    .producto__valor {
+    .diverso__valor {
         
         /* width: 156px; */
         width: 16vw;
@@ -101,7 +101,7 @@
     }
     
     
-    .producto__boton {
+    .diverso__boton {
         
         /* width: 88px; */
         width: 22vw;
@@ -123,7 +123,7 @@
 @media (max-width:767px) and (min-width:568px){
 
    
-    .producto__titulo {
+    .diverso__titulo {
         
         /* width: 156px; */
         width: 15vw;
@@ -143,7 +143,7 @@
     }
     
     
-    .producto__valor {
+    .diverso__valor {
         
         /* width: 156px; */
         width: 15vw;
@@ -160,7 +160,7 @@
     }
     
     
-    .producto__boton {
+    .diverso__boton {
         
         /* width: 88px; */
         width: 16vw;
@@ -183,7 +183,7 @@
 @media (max-width:1199px) and (min-width:992px){
 
  
-    .producto__titulo {
+    .diverso__titulo {
         
         /* width: 156px; */
         width: 15vw;
@@ -203,7 +203,7 @@
     }
     
     
-    .producto__valor {
+    .diverso__valor {
         
         /* width: 156px; */
         width: 15vw;
@@ -220,7 +220,7 @@
     }
     
     
-    .producto__boton {
+    .diverso__boton {
         
         /* width: 88px; */
         width: 9vw;
@@ -244,7 +244,7 @@
 @media (max-width:1800px) and (min-width:1200px){
 
      
-    .producto__titulo {
+    .diverso__titulo {
         /* width: 176px; */
         width: 16vw;
         height: 16px;
@@ -263,7 +263,7 @@
     }
     
     
-    .producto__valor {
+    .diverso__valor {
         
         /* width: 176px; */
         width: 16vw;
@@ -280,7 +280,7 @@
     }
     
     
-    .producto__boton {
+    .diverso__boton {
         
         /* width: 100px; */
         width: 7vw;

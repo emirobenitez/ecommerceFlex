@@ -1,16 +1,114 @@
 .banner__titulo {
     
-    width: 751px;
+    /* width: 751px;
     height: 61px;
-    left: 0px;
-    top: 0px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
     color: #FFFFFF;
-    
-    margin: 105px auto auto 10px;
+    margin: 119px auto auto 128px; */
 
 }
+
+
+
+
+@media (max-width:567px) and (min-width:320px){
+    .banner__titulo {
+        /* width: 95vw; */
+        width: 704px;
+        height: 61px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 61px;
+
+        color: #FFFFFF;
+
+        margin: 72px auto auto 14px; 
+    }
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+    .banner__titulo {
+        /* width: 95vw; */
+        width: 704px;
+        height: 61px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 61px;
+
+        color: #FFFFFF;
+
+        margin: 77px auto auto 14px; 
+        
+    }
+
+}
+
+@media (max-width:767px) and (min-width:568px){
+
+    .banner__titulo {
+        /* width: 95vw; */
+        width: 704px;
+        height: 61px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 61px;
+
+        color: #FFFFFF;
+
+        margin: 72px auto auto 14px; 
+        
+    }
+    
+}
+
+
+@media (max-width:1199px) and (min-width:992px){
+    .banner__titulo {
+        /* width: 95vw; */
+width: 704px;
+height: 61px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 61px;
+color: #FFFFFF;
+margin: 133px auto auto 14px;
+        
+    }
+} 
+
+
+
+@media (max-width:1800px) and (min-width:1200px){
+  
+    .banner__titulo {
+        /* width: 95vw; */
+        width: 751px;
+        height: 61px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+        color: #FFFFFF;
+        margin: 119px auto auto 128px;
+            
+    }
+} 

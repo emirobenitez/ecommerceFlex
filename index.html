@@ -7,9 +7,15 @@
     <title>eComerce</title>
 
     <!-- Assets -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Assets -->
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
-    <link href="./assets/css/fonts.css" rel="stylesheet" />
+    <!-- <link href="./assets/css/fonts.css" rel="stylesheet" /> -->
     <link href="./assets/css/styles.css" rel="stylesheet" />
     
 
@@ -27,12 +33,13 @@
     <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
     <link href="./assets/css/banner/banner-parrafo.css" rel="stylesheet" />
     <link href="./assets/css/banner/banner-btn.css" rel="stylesheet" />
-    <link href="./assets/css/banner/banner-img" rel="stylesheet" />
+    <link href="./assets/css/banner/banner-img.css" rel="stylesheet" />
 
 
 
     <!-- Productos -->
     <link href="./assets/css/productos.css" rel="stylesheet" />
+    <link href="assets/css/productos/titulos.css" rel="stylesheet" />
     <link href="assets/css/productos/productos.css" rel="stylesheet" />
     <link href="assets/css/productos/producto.css" rel="stylesheet" />
     <link href="assets/css/productos/producto-boton.css" rel="stylesheet" />
@@ -40,9 +47,39 @@
     <link href="assets/css/productos/producto-imagen.css" rel="stylesheet" />
     <link href="assets/css/productos/producto-titulo.css" rel="stylesheet" />
     <link href="assets/css/productos/producto-descripcion.css" rel="stylesheet" />
+        
+    <!-- Consolas -->
+    <link href="./assets/css/consolas.css" rel="stylesheet" />
+    <link href="assets/css/consolas/titulos.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consolas.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consola.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consola-boton.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consola-contenido.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consola-imagen.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consola-titulo.css" rel="stylesheet" />
+    <link href="assets/css/consolas/consola-descripcion.css" rel="stylesheet" />
+        
+    <link href="assets/css/diversos/titulos.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diversos.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diverso.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diverso-boton.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diverso-contenido.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diverso-imagen.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diverso-titulo.css" rel="stylesheet" />
+    <link href="assets/css/diversos/diverso-descripcion.css" rel="stylesheet" />
     
-    
+    <!-- Contacto -->
+    <link href="./assets/css/contacto/contacto-contenido.css" rel="stylesheet" />
+    <link href="./assets/css/contacto/contactoContenido-acerca.css" rel="stylesheet" />
+    <link href="./assets/css/contacto/contactoContenido-img.css" rel="stylesheet" />
+    <link href="./assets/css/contacto/contactoConenido-form.css" rel="stylesheet" />
 
+	
+	<!-- Area de Footer -->
+	<link href="./assets/css/footer/footer.css" rel="stylesheet" />
+	<link href="./assets/css/footer/rodapie.css" rel="stylesheet" />
+
+    
 
 </head>
 <body>
@@ -77,75 +114,321 @@
     </header>
     <main>
 
-        <!-- <section>
+        <section>
             <div class="banner">
                 <div class="banner__img">
-
+                    
                     <h2 class="banner__titulo">Febrero Promocional</h2>
                     <p class="banner__parrafo">Productos selecionados con 33% de descuento</p>
-                    <button class="banner__btn"><a class="banner__btn--link" href="#" > Ver Consolas </a> </button>
+                    <button class="banner__btn"><a class="banner__btn--link" href="#" > Ver productos </a> </button>
 
                 </div>
 
             </div>
         </section>
 
+        <section class="productos">
 
-    <section class="productos">
-        <div class="producto">
-            <h2 class="experencia__titulo">Star Wars</h2>
+            <div class="titulos">
+                <h2 class="titulo__principal">Star Wars</h2>
+                <p class="titulo__verTodo"> Ver todo</p>
+                <img class="flecha" src="./assets/img/flecha.png" >
+            </div>
+                
+          <div class="producto">
+            
+              <div class="producto">
+              
+                  <img class="producto__imagen" src="./assets/img/productos/starwar1.png" alt="producto__1"  />
+                          
+                  <div class="producto__contenido">
+                      <h4 class="producto__titulo">Producto xyz</h4>
+                      <p class="producto__valor">$60,00</p>
+                      <button class="producto__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="producto">
+              
+                  <img class="producto__imagen" src="./assets/img/productos/starwar2.png" alt="producto__1"  />
+                          
+                  <div class="producto__contenido">
+                      <h4 class="producto__titulo">Producto xyz</h4>
+                      <p class="producto__valor">$60,00</p>
+                      <button class="producto__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="producto">
+              
+                  <img class="producto__imagen" src="./assets/img/productos/starwar3.png" alt="producto__1"  />
+                          
+                  <div class="producto__contenido">
+                      <h4 class="producto__titulo">Producto xyz</h4>
+                      <p class="producto__valor">$60,00</p>
+                      <button class="producto__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="producto">
+              
+                  <img class="producto__imagen" src="./assets/img/productos/starwar4.png" alt="producto__1"  />
+                          
+                  <div class="producto__contenido">
+                      <h4 class="producto__titulo">Producto xyz</h4>
+                      <p class="producto__valor">$60,00</p>
+                      <button class="producto__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="producto">
+              
+                  <img class="producto__imagen" src="./assets/img/productos/starwar5.png" alt="producto__1"  />
+                          
+                  <div class="producto__contenido">
+                      <h4 class="producto__titulo">Producto xyz</h4>
+                      <p class="producto__valor">$60,00</p>
+                      <button class="producto__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="producto">
+              
+                  <img class="producto__imagen" src="./assets/img/productos/starwar6.png" alt="producto__1"  />
+                          
+                  <div class="producto__contenido">
+                      <h4 class="producto__titulo">Producto xyz</h4>
+                      <p class="producto__valor">$60,00</p>
+                      <button class="producto__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+          
+          </div>
+        </section>
 
-            <img alt="producto__1" class="producto__imagen--1" src="./assets/img/productos/starwar1.png" />
-            <div class="producto__contenido">
-                <h4 class="producto__titulo">Producto xyz</h4>
-                <p class="producto__valor">$60,00</p>
-                <button class="producto__boton">Ver producto</button>
-            </div>
-        </div>
-        <div class="producto">
-            <img alt="producto__1" class="producto__imagen--1" src="./assets/img/productos/starwar2.png" />
-            <div class="producto__contenido">
-                <h4 class="producto__titulo">Producto xyz</h4>
-                <p class="producto__valor">$60,00</p>
-                <button class="producto__boton">Ver producto</button>
-            </div>
-        </div>
-        <div class="producto">
-            <img alt="producto__1" class="producto__imagen--1" src="./assets/img/productos/starwar3.png" />
-            <div class="producto__contenido">
-                <h4 class="producto__titulo">Producto xyz</h4>
-                <p class="producto__valor">$60,00</p>
-                <button class="producto__boton">Ver producto</button>
-            </div>
-        </div>
-        <div class="producto">
-            <img alt="producto__1" class="producto__imagen--1" src="./assets/img/productos/starwar4.png" />
-            <div class="producto__contenido">
-                <h4 class="producto__titulo">Producto xyz</h4>
-                <p class="producto__valor">$60,00</p>
-                <button class="producto__boton">Ver producto</button>
-            </div>
-        </div>
-        <div class="producto">
-            <img alt="producto__1" class="producto__imagen--1" src="./assets/img/productos/starwar5.png" />
-            <div class="producto__contenido">
-                <h4 class="producto__titulo">Producto xyz</h4>
-                <p class="producto__valor">$60,00</p>
-                <button class="producto__boton">Ver producto</button>
-            </div>
-        </div>
-        <div class="producto">
-            <img alt="producto__1" class="producto__imagen--1" src="./assets/img/productos/starwar6.png" />
-            <div class="producto__contenido">
-                <h4 class="producto__titulo">Producto xyz</h4>
-                <p class="producto__valor">$60,00</p>
-                <button class="producto__boton">Ver producto</button>
-            </div>
-        </div>
-    </section> -->
+        <section class="consolas">
 
+            <div class="titulos">
+                <h2 class="titulo__principal">Consolas</h2>
+                <p class="titulo__verTodo"> Ver todo</p>
+                <img class="flecha" src="./assets/img/flecha.png" >
+            </div>
+                
+          <div class="consola">
+            
+              <div class="consola">
+              
+                  <img class="consola__imagen" src="./assets/img/consolas/Control_XYZ_1.png" alt="consola__1"  />
+                          
+                  <div class="consola__contenido">
+                      <h4 class="consola__titulo">Consola xyz</h4>
+                      <p class="consola__valor">$60,00</p>
+                      <button class="consola__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="consola">
+              
+                  <img class="consola__imagen" src="./assets/img/consolas/Control_y_consola.png" alt="consola__1"  />
+                          
+                  <div class="consola__contenido">
+                      <h4 class="consola__titulo">Consola xyz</h4>
+                      <p class="consola__valor">$60,00</p>
+                      <button class="consola__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="consola">
+              
+                  <img class="consola__imagen" src="./assets/img/consolas/Consola_XYZ.png" alt="consola__1"  />
+                          
+                  <div class="consola__contenido">
+                      <h4 class="consola__titulo">Consola xyz</h4>
+                      <p class="consola__valor">$60,00</p>
+                      <button class="consola__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="consola">
+              
+                  <img class="consola__imagen" src="./assets/img/consolas/Control_XYZ.png" alt="consola__1"  />
+                          
+                  <div class="consola__contenido">
+                      <h4 class="consola__titulo">Consola xyz</h4>
+                      <p class="consola__valor">$60,00</p>
+                      <button class="consola__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="consola">
+              
+                  <img class="consola__imagen" src="./assets/img/consolas/Consola_XYZ_2.png" alt="consola__1"  />
+                          
+                  <div class="consola__contenido">
+                      <h4 class="consola__titulo">Consola xyz</h4>
+                      <p class="consola__valor">$60,00</p>
+                      <button class="consola__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+                  
+              <div class="consola">
+              
+                  <img class="consola__imagen" src="./assets/img/consolas/Game_Boy_Color.png" alt="consola__1"  />
+                          
+                  <div class="consola__contenido">
+                      <h4 class="consola__titulo">Consola xyz</h4>
+                      <p class="consola__valor">$60,00</p>
+                      <button class="consola__boton">Ver producto</button>
+                  </div>
+              </div>
+              
+          
+          </div>
+        </section>
+
+       
+        <section class="diversos">
+
+            <div class="titulos">
+                <h2 class="titulo__principal">Diversos</h2>
+                <p class="titulo__verTodo"> Ver todo</p>
+                <img class="flecha" src="./assets/img/flecha.png" >
+            </div>
+                
+        <div class="diverso">
+            
+            <div class="diverso">
+            
+                <img class="diverso__imagen" src="./assets/img/diversos/diversos1.png" alt="diverso__1"  />
+                        
+                <div class="diverso__contenido">
+                    <h4 class="diverso__titulo">Control XYZ</h4>
+                    <p class="diverso__valor">$60,00</p>
+                    <button class="diverso__boton">Ver todos</button>
+                </div>
+            </div>
+            
+                
+            <div class="diverso">
+            
+                <img class="diverso__imagen" src="./assets/img/diversos/diversos2.png" alt="diverso__1"  />
+                        
+                <div class="diverso__contenido">
+                    <h4 class="diverso__titulo">Control y consola XYZ</h4>
+                    <p class="diverso__valor">$60,00</p>
+                    <button class="diverso__boton">Ver todos</button>
+                </div>
+            </div>
+            
+                
+            <div class="diverso">
+            
+                <img class="diverso__imagen" src="./assets/img/diversos/diversos3.png" alt="diverso__1"  />
+                        
+                <div class="diverso__contenido">
+                    <h4 class="diverso__titulo">Consola XYZ</h4>
+                    <p class="diverso__valor">$60,00</p>
+                    <button class="diverso__boton">Ver todos</button>
+                </div>
+            </div>
+            
+                
+            <div class="diverso">
+            
+                <img class="diverso__imagen" src="./assets/img/diversos/diversos4.png" alt="diverso__1"  />
+                        
+                <div class="diverso__contenido">
+                    <h4 class="diverso__titulo">Control XYZ</h4>
+                    <p class="diverso__valor">$60,00</p>
+                    <button class="diverso__boton">Ver todos</button>
+                </div>
+            </div>
+            
+                
+            <div class="diverso">
+            
+                <img class="diverso__imagen" src="./assets/img/diversos/diversos5.png" alt="diverso__1"  />
+                        
+                <div class="diverso__contenido">
+                    <h4 class="diverso__titulo">Consola XYZ</h4>
+                    <p class="diverso__valor">$60,00</p>
+                    <button class="diverso__boton">Ver todos</button>
+                </div>
+            </div>
+            
+                
+            <div class="diverso">
+            
+                <img class="diverso__imagen" src="./assets/img/diversos/diversos6.png" alt="diverso__1"  />
+                        
+                <div class="diverso__contenido">
+                    <h4 class="diverso__titulo">Game Boy Color</h4>
+                    <p class="diverso__valor">$60,00</p>
+                    <button class="diverso__boton">Ver todos</button>
+                </div>
+            </div>
+            
+        </div>
+
+        </section>
+
+        <contacto>
+
+            <div class="contacto__contenido">
+                <div class="contacto__contenido--img">
+                    <img src="./assets/img/contacto/contactoLogo.png" alt="">
+                    <img src="./assets/img/AluraGeek.png" alt="">
+                </div>
+
+                <div class="contacto__contenido--acerca">
+                    <p>Quienes somos</p>
+                    <p>Política de privacidad</p>
+                    <p>Programa de fidelidad</p>
+                    <p>Nuestras Tiendas</p>
+                    <p>Quiero ser franquiciado</p>
+                    <p>Anúncie aquí</p>
+                </div>
+                
+                <div class="container">
+
+                    <form class="contacto__conenido--form" action="">
+                        <label>Hable con nosotros</label>
+                        <input type="text" id="nombre" class="nombre" name="nombre" placeholder="Nombre">
+
+                        <textarea type="text" id="nombre" class="nombre" name="nombre" placeholder="Escribe tu mensaje"></textarea>
+                        <button class="contacto__contenido--btn">Enviar mensaje</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </contacto>
 
     </main>
+
+    
+	<!-- ------------------------------ -->
+	<!-- 			AREA DE FOOT 		-->
+	<!-- ------------------------------ -->
+
+	<footer class="rodapie">
+        Desarrollado por &copy; Emiro Benítez B. 
+    </footer>
+
+	<script src="valid-form.js"></script>
+
     
 </body>
 </html>
