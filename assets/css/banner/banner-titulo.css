@@ -1,20 +1,3 @@
-.banner__titulo {
-    
-    /* width: 751px;
-    height: 61px;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
-    color: #FFFFFF;
-    margin: 119px auto auto 128px; */
-
-}
-
-
-
 
 @media (max-width:567px) and (min-width:320px){
     .banner__titulo {

@@ -1,9 +1,7 @@
 .diverso {
   display: flex;
   flex-wrap: wrap;
-  /* background-color: DodgerBlue; */
-  
-  /* height: 250px; */
+
 }
 
 
@@ -11,13 +9,10 @@
 @media (max-width:567px) and (min-width:320px){
 
   .diverso > div {
-  /* background-color: yellow; */
+
   width: 50%;
   /* height: 250px; */
   margin: 1px auto;
-  /* text-align: center; */
-  /* line-height: 75px; */
-  /* font-size: 30px; */
   margin-bottom: 20px;
   display: initial;
   }
@@ -30,10 +25,7 @@
   .diverso > div {
       /* background-color: blue; */
       width: 33%;
-      /* margin: 10px auto; */
       text-align: initial;
-      /* line-height: 75px; */
-      /* font-size: 30px; */
       margin-bottom: 20px;
       display: initial;
     }
@@ -45,10 +37,7 @@
   .diverso > div {
       /* background-color: red; */
       width: 30%;
-      /* margin: 10px; */
       text-align: initial;
-      /* line-height: 75px; */
-      /* font-size: 30px; */
       margin-bottom: 20px;
       display: initial;
     }
@@ -64,7 +53,6 @@
     margin: 10px ;
     text-align: initial;
     line-height: 17px;
-    /* font-size: 30px; */
     display: initial;
   }
    
@@ -73,7 +61,6 @@
 @media (max-width:1800px) and (min-width:1200px){
     .diverso > div {
     background-color: #f1f1f1;
-    /* width: calc(15% - 5rem); */
     width: 15% ;
     margin: 0px auto;
     text-align: initial;
