@@ -1,0 +1,112 @@
+.bannerPro__img {
+    /* background: rebeccapurple; */
+    width: 98vw;
+    height: 403px; 
+    /* background: url(../../img/bannerPro/bannerPro.png);
+    background-repeat: no-repeat;
+    background-size: 98vw 352px;
+    border-radius: 0px; */
+/*     
+    justify-items: center;
+    justify-content: flex-start;  */
+}
+
+
+
+@media (max-width:567px) and (min-width:320px){
+
+    .bannerPro__img {
+        
+        width: 98vw;
+        height: 192px;
+        display: flex;
+        margin: auto;
+
+        background: url(../../img/bannerPro/bannerPro.png);
+        background-repeat: no-repeat;
+        background-size: 98vw 192px;
+        border-radius: 0px;
+        
+        justify-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .bannerPro__img--imagen {
+        /* width: 99vw; */
+        /* justify-content: center;
+        justify-items: center; */
+    }
+
+}
+
+
+@media (max-width:767px) and (min-width:568px){
+    
+    .bannerPro__img {
+        width: 98vw;
+        height: 235px;
+        display: flex;
+        margin: auto;
+
+        background: url(../../img/bannerPro/bannerPro.png);
+        background-repeat: no-repeat;
+        background-size: 98vw 235px;
+        border-radius: 0px;
+        
+        /* justify-items: center; */
+        /* justify-content: flex-start; */
+    }
+
+
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+    .bannerPro__img {
+
+        width: 28%;
+        height: 330px;
+
+        background: url(../../img/bannerPro/bannerPro.png);
+        background-repeat: no-repeat;
+        background-size: 100% 230px;
+        border-radius: 0px;
+        
+    }
+
+
+
+}
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .bannerPro__img {
+
+        width: 50%;
+        background: url(../../img/bannerPro/bannerPro.png);
+        background-repeat: no-repeat;
+        background-size: 98% 352px;
+        border-radius: 0px;
+        
+    }
+    
+
+} 
+
+@media (max-width:1800px) and (min-width:1200px){
+    
+    .bannerPro__img {
+
+        width: 98vw;
+        height: 403px;
+        background: url(../../img/bannerPro/bannerPro.png);
+        background-repeat: no-repeat;
+        background-size: 98vw 352px;
+        border-radius: 0px;
+        
+    }
+    
+
+} 

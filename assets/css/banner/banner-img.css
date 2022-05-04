@@ -6,17 +6,19 @@
         grid-column: auto;
         grid-row: auto auto auto;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../img/banner/banner.png);
+          background-repeat: repeat, repeat, repeat;
+          background-size: auto, auto, auto;
         background-repeat: no-repeat;
-        background-size: 768px 352px;
+        /* background-size: 91vw 192px; */
+        background-size: 100vw 251px
         border-radius: 0px;
-        
         justify-items: center;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
         
-        width: 99vw;
-
+        width: 91vw;
         padding: 32px;
         justify-content: flex-start;
+        height: auto;
 
     }
 }
@@ -40,6 +42,7 @@
 
         padding: 32px;
         justify-content: flex-start;
+        height: auto;
         
     }
 
@@ -64,6 +67,7 @@
 
         padding: 32px;
         justify-content: flex-start;
+        height: auto;
         
     }
     

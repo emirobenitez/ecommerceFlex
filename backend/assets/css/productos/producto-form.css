@@ -1,0 +1,701 @@
+.producto__form {
+    /* width: 794px;
+    height: auto; */
+
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    
+    
+}
+
+.producto__form__contenido {
+    
+    display: flex;
+    flex-direction: row;
+    /* width: 624px; */
+
+}
+
+.producto__input {
+
+    
+    display: flex;
+    flex-direction: column;
+    /* width: 624px; */
+}
+
+.producto__input > input {
+
+    margin: 10px 0px;
+    height: 40px;
+}
+
+.producto__input > textarea {
+
+    margin: 10px 0px;
+}
+
+.producto__imagen {
+    background: #FFFFFF;
+    border-style: dashed;
+    /* width: 430px;
+    height: 225px; */
+
+    align-items: center;
+    margin-bottom: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+}
+
+
+.producto__input__subir--imagen {
+
+    /* width: 335px; */
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+#arrastreImagenProducto {
+    background: #FFFFFF;
+    /* width: 301px;
+    height: 59px; */
+    margin: auto;
+        
+    background-image: url(../../img/imagen.png);
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    background-position: center;
+    
+    
+}
+
+.producto__btn__agregar--imagen {
+
+    display: flex;
+    flex-direction: row;
+    /* width: 211px;
+    height: 59px; */
+    margin-left: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    align-items: center;
+}
+
+.producto__btn__agregar {
+    display: flex; align-items: center;
+}
+
+.producto__parrafo {
+    margin-left: 11px;
+    text-align: initial;
+}
+
+
+.producto__form--input {
+    
+    
+} 
+
+
+.producto__btn__agregar--producto {
+
+    display: flex;
+    justify-content: center;
+    padding: 12px 16px;
+    background: #2A7AE4;
+    /* width: 627px; */
+    
+}
+ 
+
+
+
+@media (max-width:567px) and (min-width:320px){
+
+    .producto__form {
+
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        
+        margin: auto;
+        
+        
+    }
+    
+    .producto__form__contenido {
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    
+    }
+    
+    .producto__input {
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .producto__input > input {
+    
+        width: 95%;
+        margin: 10px auto;
+        height: 40px;
+        
+    }
+    
+    .producto__input > textarea {
+    
+        margin: 10px 5px;
+    }
+    
+    .producto__imagen {
+        background: #FFFFFF;
+        border-style: dashed;
+        width: 98%;
+        height: 134px;
+    
+        align-items: center;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    
+    .producto__input__subir--imagen {
+    
+        width: 98%;
+        display: flex;
+    
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 10px;
+    
+    }
+    
+    #arrastreImagenProducto {
+        background: #FFFFFF;
+        
+        width: 98%;
+        height: 59px;
+        margin: auto;
+            
+        background-image: url(../../img/signo-mas.png);
+        background-repeat: no-repeat;
+        background-size: 18.67px 18.67px;
+        background-position: center;
+        
+        
+    }
+    
+    .producto__btn__agregar--imagen {
+
+        display: none;
+    }
+    
+    .producto__btn__agregar {
+        display: flex; align-items: center;
+        
+    }
+    
+    .producto__parrafo {
+        margin-left: 11px;
+        text-align: initial;
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    
+    
+    .producto__form--input {
+        
+        
+    } 
+    
+    
+    .producto__btn__agregar--producto {
+    
+        margin: auto;
+        width: 95%;
+        
+    }
+     
+    
+}
+
+
+@media (max-width:767px) and (min-width:568px){
+    
+    
+    .producto__form {
+
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        
+        margin: auto;
+        
+        
+    }
+    
+    .producto__form__contenido {
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    
+    }
+    
+    .producto__input {
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .producto__input > input {
+    
+        width: 95%;
+        margin: 10px auto;
+        height: 40px;
+        
+    }
+    
+    .producto__input > textarea {
+    
+        margin: 10px 5px;
+    }
+    
+    .producto__imagen {
+        background: #FFFFFF;
+        border-style: dashed;
+        width: 98%;
+        height: 134px;
+    
+        align-items: center;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    
+    .producto__input__subir--imagen {
+    
+        width: 98%;
+        display: flex;
+    
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 10px;
+    
+    }
+    
+    #arrastreImagenProducto {
+        background: #FFFFFF;
+        
+        width: 98%;
+        height: 59px;
+        margin: auto;
+            
+        background-image: url(../../img/imagen.png);
+        background-repeat: no-repeat;
+        background-size: 43px 43px;
+        background-position: center;
+        
+        
+    }
+    
+    .producto__btn__agregar--imagen {
+
+        display: none;
+    }
+    
+    .producto__btn__agregar {
+        display: flex; align-items: center;
+        
+    }
+    
+    .producto__parrafo {
+        margin-left: 11px;
+        text-align: initial;
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    
+    
+    .producto__form--input {
+        
+        
+    } 
+    
+    
+    .producto__btn__agregar--producto {
+    
+        margin: auto;
+        width: 95%;
+        
+    }
+ 
+      
+}
+    
+    
+
+@media (max-width:991px) and (min-width:768px){
+    
+   
+    .producto__form {
+
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        
+        margin: auto;
+        
+        
+    }
+    
+    .producto__form__contenido {
+        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    
+    }
+    
+    .producto__input {
+    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .producto__input > input {
+    
+        width: 95%;
+        margin: 10px auto;
+        height: 40px;
+        
+    }
+    
+    .producto__input > textarea {
+    
+        margin: 10px 5px;
+    }
+    
+    .producto__imagen {
+        background: #FFFFFF;
+        border-style: dashed;
+        width: 98%;
+        height: 134px;
+    
+        align-items: center;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    
+    .producto__input__subir--imagen {
+    
+        width: 98%;
+        display: flex;
+    
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 10px;
+    
+    }
+    
+    #arrastreImagenProducto {
+        background: #FFFFFF;
+        
+        width: 98%;
+        height: 59px;
+        margin: auto;
+            
+        background-image: url(../../img/imagen.png);
+        background-repeat: no-repeat;
+        background-size: 43px 43px;
+        background-position: center;
+        
+        
+    }
+    
+    .producto__btn__agregar--imagen {
+
+        display: none;
+    }
+    
+    .producto__btn__agregar {
+        display: flex; align-items: center;
+        
+    }
+    
+    .producto__parrafo {
+        margin-left: 11px;
+        text-align: initial;
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    
+    
+    .producto__form--input {
+        
+        
+    } 
+    
+    
+    .producto__btn__agregar--producto {
+    
+        margin: auto;
+        width: 98%;
+        
+    }
+ 
+      
+}
+
+
+
+@media (max-width:1199px) and (min-width:992px){
+      
+    .producto__form {
+        width: 794px;
+        height: auto;
+    }
+        
+        
+    .producto__form__contenido {
+        
+        width: 624px;
+
+    }
+
+    .producto__input {
+        
+        width: 624px;
+    }
+
+    .producto__input > input {
+        margin: 10px 0px;
+        height: 40px;
+    }
+
+    .producto__input > textarea {
+        margin: 10px 0px;
+    }
+
+    .producto__imagen {
+
+        width: 430px;
+        height: 225px;
+
+        align-items: center;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        
+    }
+
+
+    .producto__input__subir--imagen {
+
+        width: 335px;
+        display: flex;
+
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    #arrastreImagenProducto {
+        
+        width: 301px;
+        height: 59px;
+        margin: auto;
+            
+        background-image: url(../../img/imagen.png);
+        background-repeat: no-repeat;
+        background-size: 62px 62px;
+        background-position: center;
+        
+        
+    }
+
+    .producto__btn__agregar--imagen {
+
+        width: 211px;
+        height: 59px;
+        margin-left: 20px;
+        
+        align-items: center;
+    }
+
+    .producto__btn__agregar {
+        display: flex; align-items: center;
+    }
+
+    .producto__parrafo {
+        margin-left: 11px;
+        text-align: initial;
+    }
+
+
+    .producto__form--input {
+
+        
+    } 
+
+
+    .producto__btn__agregar--producto {
+
+        display: flex;
+        justify-content: center;
+        padding: 12px 16px;
+        width: 627px;
+        
+    }
+    
+
+   
+} 
+
+@media (max-width:1800px) and (min-width:1200px){
+      
+    .producto__form {
+        width: 794px;
+        height: auto;
+    }
+        
+        
+    .producto__form__contenido {
+        
+        width: 624px;
+
+    }
+
+    .producto__input {
+        
+        width: 624px;
+    }
+
+    .producto__input > input {
+        margin: 10px 0px;
+        height: 40px;
+    }
+
+    .producto__input > textarea {
+        margin: 10px 0px;
+    }
+
+    .producto__imagen {
+
+        width: 430px;
+        height: 225px;
+
+        align-items: center;
+        margin-bottom: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        
+    }
+
+
+    .producto__input__subir--imagen {
+
+        width: 335px;
+        display: flex;
+
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    #arrastreImagenProducto {
+        
+        width: 301px;
+        height: 59px;
+        margin: auto;
+            
+        background-image: url(../../img/imagen.png);
+        background-repeat: no-repeat;
+        background-size: 62px 62px;
+        background-position: center;
+        
+        
+    }
+
+    .producto__btn__agregar--imagen {
+
+
+        width: 211px;
+        height: 59px;
+        margin-left: 20px;
+
+        align-items: center;
+    }
+
+    .producto__btn__agregar {
+        display: flex; align-items: center;
+    }
+
+    .producto__parrafo {
+        margin-left: 11px;
+        text-align: initial;
+    }
+
+
+    .producto__form--input {
+
+        
+    } 
+
+
+    .producto__btn__agregar--producto {
+
+        display: flex;
+        justify-content: center;
+        padding: 12px 16px;
+        width: 627px;
+        
+    }
+    
+
+    
+} 

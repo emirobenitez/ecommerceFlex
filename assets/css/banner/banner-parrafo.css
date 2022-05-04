@@ -2,7 +2,7 @@
 @media (max-width:567px) and (min-width:320px){
 
     .banner__parrafo {
-        /* width: 95vw; */
+        width: 71vw;
         width: 704px;
         height: 26px;
         font-family: 'Raleway';
@@ -11,7 +11,7 @@
         font-size: 11px;
         line-height: 26px;
         color: #FFFFFF;
-        margin: -54px auto auto 18px;
+        margin: -77px auto auto 18px;
         
     }
 }

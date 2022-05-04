@@ -1,0 +1,245 @@
+.pag-login__form {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.pag-login__form input {
+    width: 423px;
+    height: 63.13px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 20px ;
+    
+} 
+
+
+.pag-login__contenido--btn {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+}
+ 
+
+
+
+@media (max-width:567px) and (min-width:320px){
+
+    .pag-login__form input {
+        width: 323px;
+        height: 63.13px;
+    
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 20px ;
+        
+    } 
+    
+    
+    .pag-login__contenido--btn {
+        width: 323px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        background: #2A7AE4;
+        color: #FFFFFF;
+        
+    }
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+    
+/*       
+    .pag-login__form {
+    
+        margin: auto;
+    }
+    
+    .pag-login__form input {
+
+
+        width: 57vw;
+        height: 41px;
+        left: calc(50% - 275px/2 + 2.5px);
+    
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 20px ;
+        
+    } 
+    
+    .pag-login__form--label {
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 21px;
+        text-align: justify;
+    
+        color: #464646;
+        margin-bottom: 20px;
+        
+    }
+
+    .pag-login__contenido--btn {
+    
+        width: 47vw;
+        height: 62px;
+        background: #2A7AE4;
+        margin: auto;
+    } 
+
+*/
+}
+
+@media (max-width:767px) and (min-width:568px){
+/*
+       
+    .pag-login__form {
+    
+        margin: auto;
+    }
+    
+    .pag-login__form input {
+
+
+        width: 57vw;
+        height: 41px;
+        left: calc(50% - 275px/2 + 2.5px);
+    
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 20px ;
+        
+    } 
+    
+    .pag-login__form--label {
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 21px;
+        text-align: justify;
+    
+        color: #464646;
+        margin-bottom: 20px;
+        
+    }
+
+    .pag-login__contenido--btn {
+    
+        width: 47vw;
+        height: 62px;
+        background: #2A7AE4;
+        margin: auto;
+    } 
+
+*/
+  
+}
+
+
+@media (max-width:1199px) and (min-width:992px){
+/*
+     
+    .pag-login__form {
+    
+        margin: auto;
+    }
+    
+    .pag-login__form input {
+
+
+        width: 47vw;
+        height: 41px;
+        left: calc(50% - 275px/2 + 2.5px);
+    
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 20px ;
+        
+    } 
+    
+    .pag-login__form--label {
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 21px;
+        text-align: justify;
+    
+        color: #464646;
+        margin-bottom: 20px;
+        
+    }
+
+    .pag-login__contenido--btn {
+    
+        width: 21vw;
+        height: 62px;
+        background: #2A7AE4;
+        margin: auto;
+    } 
+
+*/
+   
+} 
+
+@media (max-width:1800px) and (min-width:1200px){
+/*         
+    .pag-login__form {
+    
+        margin: auto;
+    }
+    
+    .pag-login__form input {
+
+
+        width: 47vw;
+        height: 41px;
+        left: calc(50% - 275px/2 + 2.5px);
+    
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 20px ;
+        
+    } 
+    
+    .pag-login__form--label {
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 21px;
+        text-align: justify;
+    
+        color: #464646;
+        margin-bottom: 20px;
+        
+    }
+
+    .pag-login__contenido--btn {
+    
+        width: 21vw;
+        height: 62px;
+        background: #2A7AE4;
+        margin: auto;
+    } 
+*/
+
+   
+} 

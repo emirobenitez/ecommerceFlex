@@ -1,19 +1,16 @@
 
 @media (max-width:567px) and (min-width:320px){
     .banner__titulo {
-        /* width: 95vw; */
-        width: 704px;
-        height: 61px;
-        
+        width: 95vw;
+        height: 26px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 61px;
-
+        font-size: 22px;
+        line-height: 26px;
         color: #FFFFFF;
-
         margin: 72px auto auto 14px; 
+        margin: 5px auto auto 14px;
     }
 }
 
@@ -63,15 +60,15 @@
 @media (max-width:1199px) and (min-width:992px){
     .banner__titulo {
         /* width: 95vw; */
-width: 704px;
-height: 61px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 46px;
-line-height: 61px;
-color: #FFFFFF;
-margin: 133px auto auto 14px;
+        width: 704px;
+        height: 61px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 61px;
+        color: #FFFFFF;
+        margin: 133px auto auto 14px;
         
     }
 } 

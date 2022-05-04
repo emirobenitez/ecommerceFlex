@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eComerce</title>
+
+    <!-- Assets -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Assets -->
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    
+
+    <!-- Estilos DE La Cabecera -->
+    <link href="./assets/css/cabecera/cabecera.css" rel="stylesheet" />
+    <link href="./assets/css/cabecera/logos.css" rel="stylesheet" />
+
+    <link href="assets/css/cabecera/btn-producto.css" rel="stylesheet" />
+    <link href="assets/css/cabecera/btn-search.css" rel="stylesheet" />
+    <link href="assets/css/cabecera/cabecera-btn.css" rel="stylesheet" />
+
+    <!-- Area de Producto -->
+    <link href="./assets/css/productos/producto-contenido.css" rel="stylesheet" />
+    <link href="./assets/css/productos/producto-titulo.css" rel="stylesheet" />
+    <link href="./assets/css/productos/producto-form.css" rel="stylesheet" />
+    
+    <!-- Nosotros -->
+    <link href="./assets/css/nosotros/nosotro-contenido.css" rel="stylesheet" />
+    <link href="./assets/css/nosotros/nosotroContenido-acerca.css" rel="stylesheet" />
+    <link href="./assets/css/nosotros/nosotroContenido-img.css" rel="stylesheet" />
+    <link href="./assets/css/nosotros/nosotroConenido-form.css" rel="stylesheet" />
+
+           
+	<!-- Area de Footer -->
+	<link href="./assets/css/footer/footer.css" rel="stylesheet" />
+	<link href="./assets/css/footer/rodapie.css" rel="stylesheet" />
+   
+
+</head>
+<body>
+                  
+    <!-- ------------------------------ -->
+    <!-- 		AREA DE CABECERA   		-->
+    <!-- ------------------------------ -->
+    <header class="header-cabecera">
+
+        <div class="cabecera">
+
+            <img class="cabecera_logo" src="./assets/svg/Logo.svg" alt="AluraGeek logo">
+
+            <div class="btn__search">
+
+                <form class="form__search" action=""></form>
+                <input class="btn__search--input" type="text" placeholder=" buscar ..." name="search">
+                <button class="btn__search--buttom"> <img class="search__img" src="./assets/svg/lupa.svg" alt="Search SVG "> </button>
+
+            </div>
+                
+            <div class="btn__login">
+                <a href="login.html"><button class="btn__login--buttom login">Login</button> </a>
+                <!-- <buttom class="btn__login--buttom" ><a href="#">Login</a></buttom> -->
+                
+            </div>
+            
+        </div>
+        
+
+    </header>
+    <main>
+
+        <!-- ------------------------------ -->
+        <!-- 		AGREGAR PRODUCTOS  		-->
+        <!-- ------------------------------ -->
+        <section class="producto">
+
+            <div class="producto__contenido">
+
+                <h2 class="producto__titulo">Agregar nuevo producto</h2>
+
+                <form class="producto__form" action="">
+
+                    <div class="producto__form__contenido" >
+
+                        <div class="producto__imagen">
+
+                            <div id="arrastreImagenProducto">	
+                            
+                            </div>
+                            
+                            <input type="file" name="producto__input__subir--imagen" class="producto__input__subir--imagen" id="subirFoto"  required>
+
+                        </div>
+
+                        <div class="producto__btn__agregar">
+                            <button class="producto__btn__agregar--imagen">Busque en su computador</button>
+                        </div>    
+
+                    </div>
+                    <p class="producto__parrafo">Tamaño recomendado: 301px * 152px, peso máximo 2MB</p>
+
+                   
+                        <div class="producto__input">
+                        <input type="text" id="nobre__producto" class="nobre__producto" name="nobre__producto" placeholder="Nombre del producto" required>
+                        
+                        <input type="text" id="precio__producto" class="precio__producto" name="precio__producto" placeholder="Precio del produtco" required>
+                        
+                        
+                        <textarea  id="descripcion__producto" class="descripcion__producto" name="descripcion__producto"  cols="30" rows="5"  required> Descripción del producto</textarea>
+
+                    </div>
+
+                    <button class="producto__btn__agregar--producto">Agregar producto</button>
+
+                </form>
+
+            </div>
+        <section> 
+
+     
+        <!-- ------------------------------ -->
+        <!-- 		AREA DE NOSOTROS 		-->
+        <!-- ------------------------------ -->
+
+        <section class="nosotros">
+
+            <div class="nosotro">
+    
+                <div class="nosotro__contenido">
+    
+                    <div class="nosotro__contenido--img">
+                        <img src="./assets/svg/Logo.svg" alt="Logo.svg">
+    
+                    </div>
+    
+                    <div class="nosotro__contenido--acerca">
+                        <p>Quienes somos</p>
+                        <p>Política de privacidad</p>
+                        <p>Programa de fidelidad</p>
+                        <p>Nuestras Tiendas</p>
+                        <p>Quiero ser franquiciado</p>
+                        <p>Anúncie aquí</p>
+                    </div>
+                    
+                    <div class="nosotro__conenido--form">
+    
+                        <form class="nosotro__conenido--form1" action="">
+    
+                            <label>Hable con nosotros</label>
+    
+                            <input type="text" id="nosotro__conenido__form--input" class="nosotro__conenido__form--input" name="nosotro__conenido__form--input" placeholder="Nombre">
+    
+                            <textarea type="text" id="nosotro__conenido__form--textarea" class="nosotro__conenido__form--textarea" name="nosotro__conenido__form--textarea" placeholder="Escribe tu mensaje"></textarea>
+                            
+                            <button class="nosotro__contenido--btn"> Enviar mensaje </button>
+    
+                        </form>
+    
+                    </div>
+                </div>
+    
+            </section>
+        </main>
+    
+        
+        <!-- ------------------------------ -->
+        <!-- 			AREA DE FOOT 		-->
+        <!-- ------------------------------ -->
+    
+        <footer class="rodapie">
+            Desarrollado por &copy; Emiro Benítez B. 
+        </footer>
+    
+                
+        <!-- ------------------------------ -->
+        <!-- 	    AREA DE JAVASCRIPT 		-->
+        <!-- ------------------------------ -->
+    
+        <!-- <script src="valid-form.js"></script> -->
+    
+       
+    
+</body>
+</html>

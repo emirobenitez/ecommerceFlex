@@ -1,7 +1,64 @@
-.contacto__contenido--img {
 
-    text-align: center;
-    margin: 20px 0px;
-    width: 20vw;
+
+@media (max-width:567px) and (min-width:320px){
+
+    .contacto__contenido--img {
+
+        display: flex;
+        margin: 20px auto;
+        
+        
+    }
+}
+
+@media (max-width:767px) and (min-width:568px){
+
+    .contacto__contenido--img {
+
+        text-align: center;
+        margin: 20px 0px;
+        width: 94vw;
+
+    }
+    
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+    .contacto__contenido--img {
+
+        margin: 20px auto;
+        text-align: center;
+        width: 24vw;
+        
+    }
 
 }
+
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .contacto__contenido--img {
+
+        text-align: center;
+        margin: 20px 0px;
+        width: 20vw;
+
+    }
+   
+} 
+
+
+
+@media (max-width:1800px) and (min-width:1200px){
+
+    .contacto__contenido--img {
+
+        text-align: center;
+        margin: 20px 0px;
+        width: 20vw;
+
+    }
+
+} 

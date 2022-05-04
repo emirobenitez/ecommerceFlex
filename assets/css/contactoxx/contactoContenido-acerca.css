@@ -1,0 +1,101 @@
+.contacto__contenido--acerca  {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #464646;
+    align-self: stretch;   
+    
+    
+}
+
+
+
+@media (max-width:567px) and (min-width:320px){
+
+    .contacto__contenido--acerca {
+
+        width: 90vw;
+        justify-items: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        text-align: center;
+
+        margin: auto;
+        color: #464646;
+    }
+
+}
+
+@media (max-width:767px) and (min-width:568px){
+    
+    .contacto__contenido--acerca {
+
+        width: 90vw;
+        justify-items: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        text-align: center;
+
+        margin: auto;
+        color: #464646;
+    }
+
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+    .contacto__contenido--acerca {
+
+        width: 24vw;
+        margin: 20px auto;
+        justify-items: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #464646;
+    } 
+
+}
+
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .contacto__contenido--acerca {
+
+        height: 390px;
+        margin: 15px auto;
+        width: 20vw;
+        
+    }
+    
+
+} 
+
+@media (max-width:1800px) and (min-width:1200px){
+    
+    .contacto__contenido--acerca {
+
+        height: 390px;
+        margin: 15px auto;
+        width: 20vw;
+        
+    }
+    
+
+} 

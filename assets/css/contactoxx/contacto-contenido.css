@@ -1,0 +1,16 @@
+.contacto__contenido {
+    /* margin-top: 35px;
+    justify-content: space-around; */
+}
+
+.contacto__contenido {
+    /* margin-top: 35px; */
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    background: #EAF2FD;
+    height: 560px;
+    /* background: lightcoral; */
+
+}
+

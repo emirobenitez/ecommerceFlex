@@ -1,0 +1,179 @@
+
+
+@media (max-width:567px) and (min-width:320px){
+
+    /* .btn__login {
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 15vw;
+        height: 21px;
+        border: solid 1px black;
+        
+    } */
+
+        
+    /* .btn__login--buttom {
+
+        width: 92px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0px 0px 0px 16%;
+    } */
+
+}
+
+
+@media (max-width:767px) and (min-width:568px){
+
+    /* .btn__login {
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 15vw;
+        height: 16px;
+        background: #FFFFFF;
+        max-width: 15vw;
+        height: 21px;
+        border: solid 1px black;
+        
+    }
+
+        
+    .btn__login--buttom {
+
+        width: 92px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0px 0px 0px 16%;
+    } */
+    
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+/* 
+    .btn__login {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 15vw;
+        height: 16px;
+        background: #FFFFFF;
+        max-width: 15vw;
+        height: 25px;
+        border: solid 1px black;
+        justify-content: right;
+        padding: 3px;
+    }
+
+        
+    .btn__login--buttom {
+
+        width: 92px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 6px;
+    } */
+
+}
+    
+@media (max-width:1199px) and (min-width:992px){
+
+
+    /* .btn__login {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 15vw;
+        height: 16px;
+        background: #FFFFFF;
+        max-width: 15vw;
+        height: 25px;
+        border: solid 1px black;
+        justify-content: right;
+        padding: 3px;
+    }
+
+        
+    .btn__login--buttom {
+
+        width: 92px;
+        height: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 6px;
+    } */
+ 
+} 
+
+
+@media (max-width:1800px) and (min-width:1200px){
+
+    /* .btn__login {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        max-width: 15vw;
+        height: 39px;
+        background: #FFFFFF;
+        /* border: 1px solid #2A7AE4; */
+        box-sizing: border-box;
+        
+    }
+
+        
+    .btn__login--buttom {
+
+        width: 92px;
+        height: 31px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        border: 1px solid #2A7AE4;
+        box-sizing: border-box;
+        padding: 6px;
+    }      */
+        
+
+} 
+
+

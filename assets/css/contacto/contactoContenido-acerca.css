@@ -1,16 +1,73 @@
 .contacto__contenido--acerca  {
-
-    height: 19px;
-    margin: 15px auto;
-    width: 20vw;
    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    
     color: #464646;
     align-self: stretch;   
-    width: 20vw;
 }
+
+
+
+@media (max-width:567px) and (min-width:320px){
+    .contacto__contenido--acerca {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}
+
+
+@media (max-width:767px) and (min-width:568px){
+
+    .contacto__contenido--acerca {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+    .contacto__contenido--acerca {
+
+        height: 19px;
+        margin: 15px auto;
+        width: 24vw;
+
+    }
+}
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .contacto__contenido--acerca {
+
+        height: 19px;
+        margin: 15px auto;
+        width: 20vw;
+
+    }
+   
+} 
+
+
+
+@media (max-width:1800px) and (min-width:1200px){
+
+    .contacto__contenido--acerca {
+
+        height: 19px;
+        margin: 15px auto;
+        width: 20vw;
+
+    }
+
+} 

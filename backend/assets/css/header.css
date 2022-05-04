@@ -1,0 +1,17 @@
+/* ---------------------------------------- */
+/*            CSS PRODUCTOS                 */
+/* ---------------------------------------- */
+
+@import url(./cabecera/cabecera.css);
+@import url(./cabecera/logos.css);
+@import url(./cabecera/cabecera-btn.css);
+@import url(./cabecera/btn-search.css);
+@import url(./cabecera/btn-login.css);
+@import url(./cabecera/);
+
+
+/*
+<link href="assets/css/cabecera/btn-login.css" rel="stylesheet" />
+<link href="assets/css/cabecera/btn-search.css" rel="stylesheet" />
+<link href="assets/css/cabecera/cabecera-btn.css" rel="stylesheet" />
+*/

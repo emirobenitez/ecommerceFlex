@@ -1,0 +1,70 @@
+.contacto__contenido--img {
+
+    text-align: center;
+    
+
+}
+
+
+
+
+@media (max-width:567px) and (min-width:320px){
+
+    .contacto__contenido--img {
+
+        margin-top: 20px;
+        
+    }
+
+}
+
+
+@media (max-width:767px) and (min-width:568px){
+    
+    .contacto__contenido--img {
+
+        /* display: column; */
+        
+    }
+
+
+}
+
+
+@media (max-width:991px) and (min-width:768px){
+
+    .contacto__contenido--img {
+
+        margin: 20px 5px;
+        width: 24vw;
+        
+    }
+
+
+
+}
+
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .contacto__contenido--img {
+
+        margin: 20px 0px;
+        width: 24vw;
+        
+    }
+    
+
+} 
+
+@media (max-width:1800px) and (min-width:1200px){
+    
+    .contacto__contenido--img {
+
+        margin: 20px 0px;
+        width: 20vw;
+        
+    }
+    
+
+} 
